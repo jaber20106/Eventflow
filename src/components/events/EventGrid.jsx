@@ -1,24 +1,15 @@
 import EventCard from "../cards/EventCard";
-import events from "@/data/events";
 
-export default function EventGrid({ category }) {
-
-  const filteredEvents =
-    category
-      ? events.filter(
-          (event) => event.slug === category
-        )
-      : events;
+export default function EventGrid({ events }) {
 
   return (
     <section className="px-24 pt-8 pb-20 max-w-[1600px] mx-auto">
 
-      {/* Top */}
       <div className="flex items-start justify-between">
 
         <div>
           <p className="text-sm font-bold tracking-[4px] uppercase">
-            {filteredEvents.length} Events
+            {events.length} Events
           </p>
 
           <h1 className="text-[32px] leading-none font-bold mt-4">
@@ -37,12 +28,12 @@ export default function EventGrid({ category }) {
           </button>
 
         </div>
+
       </div>
 
-      {/* Grid */}
       <div className="grid grid-cols-3 gap-10 mt-8">
 
-        {filteredEvents.map((event) => (
+        {events.map((event) => (
           <EventCard
             key={event.id}
             event={event}
@@ -50,6 +41,7 @@ export default function EventGrid({ category }) {
         ))}
 
       </div>
+
     </section>
   );
 }
