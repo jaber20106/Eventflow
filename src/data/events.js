@@ -1,0 +1,111 @@
+const events = [
+  {
+    id: 1,
+    category: "Music",
+    slug: "music",
+    title: "Summer Sessions: Mahogany",
+    location: "The Warehouse, SF",
+    date: "SAT 23 AUG · 7:30 PM",
+    price: "$42",
+    going: "142 going",
+    gradient: "from-[#F25F5C] to-[#E78A00]",
+  },
+
+  {
+    id: 2,
+    category: "Tech",
+    slug: "tech",
+    title: "FlowConf — Annual organiser summit",
+    location: "Convention Center, Austin",
+    date: "THU 11 SEP · 9:00 AM",
+    price: "$189",
+    going: "2,341 going",
+    gradient: "from-[#7257F5] to-[#2563EB]",
+  },
+
+  {
+    id: 3,
+    category: "Food",
+    slug: "food",
+    title: "Mission Street Food Crawl",
+    location: "Mission District, SF",
+    date: "SUN 8 JUN · 11:00 AM",
+    price: "$28",
+    going: "410 going",
+    gradient: "from-[#97D700] to-[#F0B429]",
+  },
+
+  {
+    id: 4,
+    category: "Arts",
+    slug: "arts",
+    title: "Canvas & Coffee Night",
+    location: "Art Hub, Brooklyn",
+    date: "FRI 15 AUG · 6:00 PM",
+    price: "$32",
+    going: "210 going",
+    gradient: "from-[#F04F78] to-[#FF6B6B]",
+  },
+
+  {
+    id: 5,
+    category: "Nightlife",
+    slug: "nightlife",
+    title: "Neon Rooftop Party",
+    location: "Skyline Lounge, LA",
+    date: "SAT 2 AUG · 10:00 PM",
+    price: "$75",
+    going: "1,120 going",
+    gradient: "from-[#D946EF] to-[#A855F7]",
+  },
+
+  {
+    id: 6,
+    category: "Workshops",
+    slug: "workshops",
+    title: "Creative Coding Bootcamp",
+    location: "Tech Loft, Seattle",
+    date: "MON 18 AUG · 1:00 PM",
+    price: "$95",
+    going: "540 going",
+    gradient: "from-[#2563EB] to-[#1E3A8A]",
+  },
+
+  {
+    id: 7,
+    category: "Business",
+    slug: "business",
+    title: "Startup Growth Meetup",
+    location: "Downtown Hub, NYC",
+    date: "TUE 12 AUG · 4:00 PM",
+    price: "$120",
+    going: "830 going",
+    gradient: "from-[#8B5CF6] to-[#6366F1]",
+  },
+
+  {
+    id: 8,
+    category: "Sports",
+    slug: "sports",
+    title: "City Marathon 2026",
+    location: "Central Park, NY",
+    date: "SUN 29 JUN · 5:30 AM",
+    price: "$65",
+    going: "4,500 going",
+    gradient: "from-[#06B6D4] to-[#0891B2]",
+  },
+
+  {
+    id: 9,
+    category: "Community",
+    slug: "community",
+    title: "Neighborhood Volunteer Day",
+    location: "Greenwood Center",
+    date: "SAT 5 JUL · 9:00 AM",
+    price: "$10",
+    going: "310 going",
+    gradient: "from-[#84CC16] to-[#65A30D]",
+  },
+];
+
+export default events;
